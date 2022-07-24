@@ -8,6 +8,9 @@ for (int i = 0; i < array.Length; i++)
     n++;
 }
 
+Console.WriteLine(" ");
+Console.WriteLine("Слова в данном массиве длинна которых не больше трех символов: ");
+
 for (int i = 0; i < array.Length; i++)
 {
     int n = 0;
